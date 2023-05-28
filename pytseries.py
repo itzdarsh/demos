@@ -4,7 +4,7 @@ from pymongo import MongoClient as mc
 import matplotlib.pyplot as plt
 
 conn = mc("localhost")
-db = conn['alvas']
+db = conn['test']
 coll = db['tsDemo']
 xAxis = [];
 yAxis = []
